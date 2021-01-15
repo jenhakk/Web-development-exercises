@@ -4,37 +4,38 @@ body {
     font-family: 'Arima Madurai', cursive;
     font-size: larger;
     color:darkslateblue;
-    margin: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
     width: auto;
 }
 
 h1 {
-    border-bottom: 1px solid black;
-    color: black;
+    border-bottom: 1px solid;
+    color: rgb(179, 44, 44);
     font-size: 16px;
 }
 hr {
     color: black;
 }
 a {
-    color:violet;
-    text-decoration: none;
-}
-
-a:visited {
     color:slateblue;
     text-decoration: none;
 }
 
+a:visited {
+    color:violet;
+    text-decoration: none;
+}
+
 a:hover {
-    color:lime;
+    color:rgb(37, 248, 125);
     text-decoration: underline;
 }
 
 figure {
 
     width: 40%;
-    text-align: center;
+    text-align: right;
     border: thin black solid;
     margin: 0.5em;
     padding: 0.5em;
