@@ -4,14 +4,18 @@ body {
     font-family: 'Arima Madurai', cursive;
     font-size: larger;
     color:darkslateblue;
+    margin: 100px;
+    width: auto;
 }
 
 h1 {
-    border-bottom: 2px solid red;
-    color: red;
+    border-bottom: 1px solid black;
+    color: black;
     font-size: 16px;
 }
-
+hr {
+    color: black;
+}
 a {
     color:violet;
     text-decoration: none;
@@ -28,9 +32,11 @@ a:hover {
 }
 
 figure {
+
     width: 40%;
     text-align: center;
     border: thin black solid;
     margin: 0.5em;
     padding: 0.5em;
 }
+
