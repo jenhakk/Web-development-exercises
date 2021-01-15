@@ -1,21 +1,32 @@
+/* Part of exercise 3: Creating css file */
+
+
 body {
 
     background-color: rgb(227, 255, 255);
     font-family: 'Arima Madurai', cursive;
     font-size: larger;
     color:darkslateblue;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
     width: auto;
 }
 
 h1 {
-    border-bottom: 1px solid;
-    color: rgb(179, 44, 44);
+    border-bottom: 1px solid darkslateblue;;
+    color: rgb(241, 97, 164);
     font-size: 16px;
 }
-hr {
-    color: black;
+
+
+li a {
+
+    display: block;
+    color:slateblue;
+
+   
+   
+    
 }
 a {
     color:slateblue;
@@ -35,7 +46,7 @@ a:hover {
 figure {
 
     width: 40%;
-    text-align: right;
+    text-align: center;
     border: thin black solid;
     margin: 0.5em;
     padding: 0.5em;
