@@ -22,11 +22,7 @@ h1 {
 li a {
 
     display: block;
-    color:slateblue;
-
-   
-   
-    
+    color:slateblue; 
 }
 a {
     color:slateblue;
@@ -39,7 +35,7 @@ a:visited {
 }
 
 a:hover {
-    color:rgb(37, 248, 125);
+    color:rgb(13, 226, 102);
     text-decoration: underline;
 }
 
