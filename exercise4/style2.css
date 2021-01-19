@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(10, 4, 61);
+    
+   
+}
+
+.wrapper {
+        margin: auto;
+        width: 80%;
+        border: 2px solid black;
+    }
+
+  header {
+   width: 100%;
+   background-image:url("image/lippujakaupunki.jpg");
+   background-size: cover;
+   background-position: center;
+   min-height:200px;
+   border-bottom: 1px solid black;
+  
+  }
+  
+  .caption {
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    color: white;
+    text-shadow: 4px 4px black;
+    font-size: 70px;
+    text-align: center;
+    padding: 21px;
+  
+    
+  }
+  .topnav {
+    
+   background-color: rgba(0, 0, 0, 0.548);
+   overflow: hidden;
+  
+  } 
+ .topnav a {
+  font-family: 'Big Shoulders Stencil Text', cursive;
+   float: left;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+   font-weight: bold;  
+   letter-spacing: 2px;
+   text-shadow: 4px 4px black; 
+ }
+  .container{
+
+    width: 100%;
+    display:flex;  
+    justify-content: space-evenly;
+    align-items: stretch;
+
+ 
+   }
+  .leftbar {
+    width: 20%;
+    background-color: rgba(162, 14, 29, 0.863);
+    flex-grow: 1;
+    border: 2px solid black;
+
+  }
+
+  .links li {
+    
+    display:block;
+    padding: 10px;
+    padding-left:8px;
+    list-style: none;
+  
+  }
+  .links a{
+
+    
+    font-family: 'Glegoo', serif;
+    color: white;
+    font-weight: bold;
+    
+
+  }
+  .content {
+    width: 80%;
+    background-color: rgb(17, 71, 141);
+    min-height: 500px;
+    flex-grow: 2;
+    font-family: 'Glegoo', serif;
+    padding: 20px;
+    color: white;
+    border: 2px solid black;
+  
+  }
+
+  .center {
+
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    border: 2px solid black;
+  }
+  
+
+
+
+  rightbar {
+    width: 10%;
+    background-color: rgba(162, 14, 29, 0.863);
+    border: 2px solid black;
+  }
+ 
+  footer {
+    width: 100%;
+    background-image:url("image/mindthegap2.jpg");
+    background-size: cover;
+    min-height: 250px;
+   
+  }

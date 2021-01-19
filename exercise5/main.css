@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(189, 183, 243);
+}
+
+.wrapper {
+    margin: auto;
+    border: 2px solid black;
+}
+
+header {
+   
+    background-image:url("images/lippujakaupunki.jpg");
+    background-size:cover;
+    background-position: center;
+    min-height:300px;
+    border-bottom: 1px solid black;
+   
+   }
+
+.caption {
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    color: white;
+    text-shadow: 4px 4px black;
+    font-size: 100px;
+    text-align: center;
+    padding: 21px;
+}
+
+.navbar {
+    
+  overflow: hidden; 
+}
+
+.navbar a {
+    font-family: 'Big Shoulders Stencil Text', cursive;
+     float: left;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 17px;
+     font-weight: bold;  
+     letter-spacing: 2px;
+     text-shadow: 4px 4px black; 
+   }
+
+.list-group {
+
+    text-decoration: none;
+   color: white;
+} 
+.list-group-item {
+    background-color: rgba(162, 14, 29, 0.863);
+    font-family: 'Glegoo', serif;
+    color: white;
+    font-weight: bold;
+   
+    
+}  
+
+  
