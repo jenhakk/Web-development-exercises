@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link href="main.css" rel="stylesheet">
     <meta name="author" content="Jenna Hakkarainen">
-    <title>London calling</title>
+    <title>London calling - Contact</title>
 </head>
 <body>
   <div class="container" style="border: 2px solid black;">
@@ -41,22 +41,52 @@
         </div>
         <div class="col-sm-10" style="background-color: rgb(17, 71, 141); border: 2px solid black;">
         <div class="content">
-          <article>
-
-            <h2 style="text-align: center; margin-top: 30px;">Welcome to London!</h2>
-            <br>
-            <p style="margin: 40px; margin-top: 30px; line-height: 1.6;">London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times. At its centre stand the imposing Houses of Parliament, the iconic ‘Big Ben’ clock tower and Westminster Abbey, site of British monarch coronations. Across the Thames River, the London Eye observation wheel provides panoramic views of the South Bank cultural complex, and the entire city.</p>
-        </article>
-        <br>
-       
-        <img src="images/londoneye.jpg" alt="London eye" class="center">
-        <img src="images/towerbridge.jpg" alt="Tower Bridge" class="center">
-        <img src="images/bus.jpg" alt="Red bus" class="center">
+            <div class="box">
+                <h4 style="text-align:center;">Fill out the form and we will get back to you as soon as possible!</h4>
+            <form style="margin:40px; width: 100%;">
+                <div class="form-group row"> 
+                  <label for="inputDefault" class="col-sm-2 col-form-label">First name</label>
+                  
+                  <div class="col-sm-8">
+                    <input type="fname" class="form-control" id="inputDefault" placeholder="First name" required>
+                  </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputDefault" class="col-sm-2 col-form-label">Last name</label>
+                    <div class="col-sm-8">
+                      <input type="lname" class="form-control" id="inputDefault" placeholder="Last name" required>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="inputDefault" class="col-sm-2 col-form-label">Phone number</label>
+                    <div class="col-sm-8">
+                      <input type="tel" class="form-control" id="inputDefault" placeholder="0123456789">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="inputEmail13" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-8">
+                      <input type="email" class="form-control" id="inputEmail13" placeholder="johndoe@email.com" required>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="inputDefault" class="col-sm-2 col-form-label">Comment</label>
+                    <div class="col-sm-8">
+                      <textarea type="textarea" class="form-control" id="inputDefault" placeholder="Write your comments here"  style="min-height: 150px;" required></textarea>
+                    </div>
+                  </div>
+                <div class="form-group row">
+                  <div class="col-sm-10 offset-sm-2">
+                    <button type="submit" class="btn btn-primary">Send</button>
+                  </div>
+                </div>
+              </form>
+            </div>
     </div>
  
 </div>
 <div class="footer" style="border: 2px solid black; color:rgba(255, 255, 255, 0.788); text-align: center; padding-top:5px;">
-    <p> ©Jenna Hakkarainen - 2021 - HAMK</p>
+  <p> ©Jenna Hakkarainen - 2021 - HAMK</p>
 
 </div>
 </div>

@@ -1,34 +1,28 @@
 body {
-    background-color: rgb(189, 183, 243);
+    background-color: rgb(10, 4, 61);
 }
 
-.wrapper {
-    margin: auto;
-    border: 2px solid black;
-}
 
 header {
    
     background-image:url("images/lippujakaupunki.jpg");
     background-size:cover;
     background-position: center;
+ 
     min-height:300px;
-    border-bottom: 1px solid black;
+    border: 2px solid black;
    
    }
 
-.caption {
+h1 {
     font-family: 'Big Shoulders Stencil Text', cursive;
     color: white;
-    text-shadow: 4px 4px black;
+    text-shadow: 6px 6px black;
     font-size: 100px;
+    font-weight: bold;
     text-align: center;
-    padding: 21px;
-}
-
-.navbar {
-    
-  overflow: hidden; 
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .navbar a {
@@ -36,26 +30,65 @@ header {
      float: left;
      color: white;
      text-align: center;
-     padding: 14px 16px;
+     padding: 12px 8px;
      text-decoration: none;
-     font-size: 17px;
+     font-size: 22px;
      font-weight: bold;  
      letter-spacing: 2px;
-     text-shadow: 4px 4px black; 
+     text-shadow: 2px 2px black;
+     
    }
 
-.list-group {
 
-    text-decoration: none;
-   color: white;
-} 
 .list-group-item {
-    background-color: rgba(162, 14, 29, 0.863);
+    background-color: rgba(162, 14, 29);
     font-family: 'Glegoo', serif;
-    color: white;
-    font-weight: bold;
-   
     
 }  
+.list-group-item a {
 
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+   
+} 
+.content {
+    
+    background-color: rgb(17, 71, 141);
+    min-height: 500px;
+    flex-grow: 2;
+    font-family: 'Glegoo', serif;
+    padding: 20px;
+    color: white;
+    
   
+  }
+.center {
+
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    border: 2px solid black;
+  }
+ 
+  .form-group {
+      padding-bottom: 15px;
+      padding-right: 15px;
+    
+  }
+
+  input:invalid {
+    
+    border: dotted rgba(255, 0, 0, 0.774);
+
+  }
+textarea:invalid:required {
+    border: dotted rgba(255, 0, 0, 0.774);
+}
+  
+  .footer{
+    background-image:url("images/mindthegap2.jpg");
+    background-size: cover;
+    min-height: 250px;
+  }
