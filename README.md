@@ -23,3 +23,10 @@ This was an exercise in first year of studies. It was made to practice creating 
 This was an upgrade from exercise 4. The exercise was to create the previous site with Bootstrap.
 
 **Here you can visit the [site](https://jenhakk.github.io/jenna_hakkarainenwww21/exercise5/exercise5.html)**
+
+
+## Other files
+
+This was the first task to create web site that had to contain some elements like list, quotes, video etc.
+
+**Here you can visit the [site](https://jenhakk.github.io/jenna_hakkarainenwww21/index.html)**
