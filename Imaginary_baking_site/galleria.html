@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Kalam|Rambla&display=swap" rel="stylesheet"> 
+    <title>Galleria</title>
+    <script src="toiminta.js"></script>
+</head>
+
+<body>
+    <div id="rakenne">
+
+        <header>
+            <div id="banneri">
+
+            <h1>Have a nice cake!</h1>
+    
+            
+            </div>
+            <div id="navigaatio">
+                <ul id="navigaatiolista">
+                <li> <a href="etusivu.html">Etusivu</a></li>
+                <li> <a href="reseptit.html">Reseptit</a></li>
+                <li> <a href="galleria.html">Galleria</a></li>
+                <li> <a href="vinkit.html">Vinkkejä</a></li>
+                </ul>
+            </div>
+        </header>
+        
+        <div class="contentArea">
+        
+            <div id="sisalto">
+
+                <h2>Galleria</h2>
+
+                <p class="kuvaus">Klikkaa jotakin kuvaa selataksesi galleriaa suurempana.</p>
+
+                <!-- Images used to open the lightbox -->
+    <!--Ensimmäinen kuvarivi-->
+<div class="row">
+    <div class="column">
+      <img src="img/haakakku2.jpg" width="100%" onclick="openModal();currentSlide(1)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="img/haakakku3.jpg" width="100%" onclick="openModal();currentSlide(2)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="img/haakakku4.jpg" width="100%" onclick="openModal();currentSlide(3)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="img/haakakku5.jpg" width="100%" onclick="openModal();currentSlide(4)" class="hover-shadow">
+    </div>
+  </div>
+    <!--Toinen kuvarivi-->
+  <div class="row">
+    <div class="column">
+      <img src="img/haakakku.jpg" width="100%" onclick="openModal();currentSlide(5)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="img/juustokakku.jpg" width="100%" onclick="openModal();currentSlide(6)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="img/brownie3.jpg" width="100%" onclick="openModal();currentSlide(7)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="img/munkit.jpg" width="100%" onclick="openModal();currentSlide(8)" class="hover-shadow">
+    </div>
+  </div>
+  <!--Kolmas kuvarivi-->
+  <div class="row">
+    <div class="column">
+      <img src="img/kuivakakku.jpg" width="100%" onclick="openModal();currentSlide(9)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="img/pekaanipiirakka.jpg" width="100%" onclick="openModal();currentSlide(10)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="img/tartaletti.jpg" width="100%" onclick="openModal();currentSlide(11)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="img/torttu.jpg" width="100%" onclick="openModal();currentSlide(12)" class="hover-shadow">
+    </div>
+  </div>
+  <!--Neljäs kuvarivi-->
+  <div class="row">
+    <div class="column">
+      <img src="img/piirakka.jpg" width="100%" onclick="openModal();currentSlide(13)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="img/turkoosikakku.jpg" width="100%" onclick="openModal();currentSlide(14)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="img/pullat.jpg" width="100%" onclick="openModal();currentSlide(15)" class="hover-shadow">
+    </div>
+    <div class="column">
+      <img src="img/sampylat.jpg" width="100%" onclick="openModal();currentSlide(16)" class="hover-shadow">
+    </div>
+  </div>
+  <!-- The Modal/Lightbox -->
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+  
+      <div class="mySlides">
+        <div class="numbertext">1 / 16</div>
+        <img class="iso" src="img/haakakku2.jpg" style="width:100%" alt="Hääkakku nro 1">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">2 / 16</div>
+        <img class="iso" src="img/haakakku3.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">3 / 16</div>
+        <img class="iso" src="img/haakakku4.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">4 / 16</div>
+        <img class="iso" src="img/haakakku5.jpg" style="width:100%">
+      </div>
+      
+        <div class="mySlides">
+            <div class="numbertext">5 / 16</div>
+            <img class="isoPysty" src="img/haakakku.jpg" >
+          </div>
+      
+        <div class="mySlides">
+            <div class="numbertext">6 / 16</div>
+            <img class="isoPysty" src="img/juustokakku.jpg" >
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">7 / 16</div>
+            <img class="isoPysty" src="img/brownie3.jpg" >
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">8 / 16</div>
+            <img class="isoPysty" src="img/munkit.jpg" >
+          </div>
+          <div class="mySlides">
+            <div class="numbertext">9 / 16</div>
+            <img class="iso" src="img/kuivakakku.jpg" style="width:100%">
+          </div>
+      
+        <div class="mySlides">
+            <div class="numbertext">10 / 16</div>
+            <img class="iso" src="img/pekaanipiirakka.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">11 / 16</div>
+            <img class="iso" src="img/tartaletti.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">12 / 16</div>
+            <img class="iso" src="img/torttu.jpg" style="width:100%">
+          </div>
+          
+          <div class="mySlides">
+            <div class="numbertext">13 / 16</div>
+            <img class="iso" src="img/piirakka.jpg" style="width:100%">
+          </div>
+      
+        <div class="mySlides">
+            <div class="numbertext">14 / 16</div>
+            <img class="iso" src="img/turkoosikakku.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">15 / 16</div>
+            <img class="iso" src="img/pullat.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">16 / 16</div>
+            <img class="iso" src="img/sampylat.jpg" style="width:100%">
+          </div>
+      <!-- Next/previous controls -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+      <!-- Caption text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+  
+      <!-- Thumbnail image controls -->
+      <div class="column1">
+        <img class="demo" src="img/haakakku2.jpg" width="50" onclick="currentSlide(1)" alt="Hääkakku nro 1">
+      </div>
+  
+      <div class="column1">
+        <img class="demo" src="img/haakakku3.jpg" width="50" onclick="currentSlide(2)" alt="Hääkakku nro 2">
+      </div>
+  
+      <div class="column1">
+        <img class="demo" src="img/haakakku4.jpg" width="50" onclick="currentSlide(3)" alt="Hääkakku nro 3">
+      </div>
+  
+      <div class="column1">
+        <img class="demo" src="img/haakakku5.jpg" width="50" onclick="currentSlide(4)" alt="Hääkakku nro 4">
+      </div>
+
+      <div class="column1">
+        <img class="demo" src="img/haakakku.jpg" width="50" onclick="currentSlide(5)" alt="Hääkakku nro 5">
+      </div>
+  
+      <div class="column1">
+        <img class="demo" src="img/juustokakku.jpg" width="50" onclick="currentSlide(6)" alt="Juustokakku marjoilla">
+      </div>
+  
+      <div class="column1">
+        <img class="demo" src="img/brownie3.jpg" width="50" onclick="currentSlide(7)" alt="Browniekakku">
+      </div>
+  
+      <div class="column1">
+        <img class="demo" src="img/munkit.jpg" width="50" onclick="currentSlide(8)" alt="Vappumunkit">
+      </div>
+      
+      <div class="column2">
+        <img class="demo" src="img/kuivakakku.jpg" width="50" onclick="currentSlide(9)" alt="Pienet kakkuset">
+      </div>
+  
+      <div class="column2">
+        <img class="demo" src="img/pekaanipiirakka.jpg" width="50" onclick="currentSlide(10)" alt="Pekaanipähkinäpiirakka">
+      </div>
+  
+      <div class="column2">
+        <img class="demo" src="img/tartaletti.jpg" width="50" onclick="currentSlide(11)" alt="Marjatartaletti">
+      </div>
+  
+      <div class="column2">
+        <img class="demo" src="img/torttu.jpg" width="50" onclick="currentSlide(12)" alt="Marenkipiirakka">
+      </div>
+      
+      <div class="column2">
+        <img class="demo" src="img/piirakka.jpg" width="50" onclick="currentSlide(13)" alt="Kasvispiirakka">
+      </div>
+  
+      <div class="column2">
+        <img class="demo" src="img/turkoosikakku.jpg" width="50" onclick="currentSlide(14)" alt="Voikreemillä kuorrutettu kakku">
+      </div>
+  
+      <div class="column2">
+        <img class="demo" src="img/pullat.jpg" width="50" onclick="currentSlide(15)" alt="Kaneliset kierrepullat">
+      </div>
+  
+      <div class="column2">
+        <img class="demo" src="img/sampylat.jpg" width="50" onclick="currentSlide(16)" alt="Grahamsämpylät">
+      </div>
+    </div>
+  </div>
+            </div>
+
+        
+            <div id="alapalkki">
+                
+            </div>
+            <div id="clear">
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>

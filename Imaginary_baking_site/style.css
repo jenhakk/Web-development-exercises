@@ -1,0 +1,593 @@
+body{
+    height: 80%;
+    margin:0;
+    background-image: url("img/dots4.jpg");   
+}
+#rakenne{
+     
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    border: solid 2px rgba(0, 0, 0, 0.479);
+    font-family: 'Rambla', sans-serif;
+}
+
+header{
+    width: 100%;
+    min-height: 25%;
+    
+}
+#banneri{
+    width: 100%;
+    min-height: 250px;
+    margin: 0 auto;
+    background-image: url("img/kuppistausta_iso.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+ h1{
+     margin: 0;
+     text-align: center;
+     color: whitesmoke;
+     font-family: 'Indie Flower', cursive;
+     font-size: 6vw;
+     text-shadow: 3px 3px rgb(92, 90, 90);
+ }
+
+/*navigaatiolaatikon asetukset ja linkit*/   
+
+#navigaatio{
+background-color: rgb(179, 145, 241);
+width: 100%;
+min-height:20%;
+margin: 0;
+float: left;
+}
+
+ul#navigaatiolista {
+list-style-type: none;
+margin: 0;
+padding: 0px;
+overflow: hidden;
+background-color: rgb(179, 145, 241);
+}
+
+li a{
+float:left;
+}
+
+li a{
+display: block;
+font-family: 'Indie Flower', cursive;
+color: white;
+text-shadow: 2px 2px rgb(92, 90, 90);
+text-align: center;
+padding: 1em 0.8em;
+text-decoration: none;
+font-size: 2.5vw;
+font-weight: 600;
+box-sizing: border-box;
+
+}
+li a:hover {
+background-color:rgb(150, 100, 241);
+}
+
+/*navigaatio loppuu*/  
+
+.contentArea{
+    width: 100%;
+    height: 100%;
+    position: static;
+    
+}
+
+#sisalto{
+background-color: rgb(232, 166, 245);
+width: 100%;
+min-height: 70%;
+margin:0;
+float: left;
+}
+
+/*sivun pääotsikko*/
+h2{
+color: rgba(0, 0, 0, 0.616);
+margin: 0;
+margin-top: 2%;
+text-align: center;
+font-size: 3vw;
+box-sizing: border-box;
+}
+
+.paakuva{
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 3%;
+margin-bottom: 5%;
+max-width: 50%;
+height: auto;
+border-radius: 10px;
+box-sizing: border-box;
+
+}
+/*sivun kuvausteksti*/
+p.kuvaus{
+color: rgba(0, 0, 0, 0.575);
+text-align: center;
+padding: 1%;
+font-size: 2.2vw;
+font-weight: 500;
+line-height: 1.4;
+box-sizing: border-box;
+
+} 
+p.teksti{
+    color: rgba(0, 0, 0, 0.575);
+    text-align: left;
+    padding: 3%;
+    font-size: 2.1vw;
+    font-weight: 500;
+    line-height: 1.4;
+    box-sizing: border-box;   
+}
+/* Reseptisivun kuvakkeet*/
+.reseptikuvat{
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ohjekuva{
+    float:left;
+    width: 50%;
+    padding:10px;
+    box-sizing: border-box;
+    
+}
+.text-block{
+  position: relative;
+  bottom: 65px;
+  width: 50%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  background-color: rgba(0, 0, 0, 0.425);
+  color: white;
+  }
+
+  a.toka:link{
+      color: white;
+      text-decoration: none;
+  }
+  a.toka:visited{
+      color: white;
+  }
+/*Reseptien raaka-aineet ja valmistus*/
+ul.raaka_aineet{
+color: rgba(0, 0, 0, 0.575);
+margin-left: 3%;
+margin-right: 5%;
+font-size: 2.1vw;
+font-weight: 500;
+box-sizing: border-box;
+}
+
+h3{
+color: rgba(0, 0, 0, 0.616);
+font-size: 2.1vw;
+margin-left: 3%;
+margin-right: 3%;
+box-sizing: border-box;
+}
+ol{
+color: rgba(0, 0, 0, 0.575);
+margin-right: 5%;
+margin-left: 3%;
+font-size: 2.1vw;
+font-weight: 500;
+line-height: 1.4;
+box-sizing: border-box;
+}
+
+/*alareunan lisäysteksti*/
+p.huom{
+    color: rgba(0, 0, 0, 0.575);
+    text-align: center;
+    padding: 1%;
+    font-size: 2vw;
+    line-height: 1.4;
+    box-sizing: border-box;
+}
+/*tekstin sisällä olevat linkit*/
+a.eka:link{
+    color:rgb(228, 43, 245);
+    text-decoration: none;
+}
+a.eka:visited{
+    color:rgb(228, 43, 245);
+    text-decoration: none;
+}
+
+/*alapalkki ja sen kuvat*/
+#alapalkki{
+background-color: rgb(211, 114, 143);
+width: 100%;
+min-height: 75%;
+margin: 0;
+float: left;
+}
+
+.kuva{
+    float:left;
+    width: 33.33%;
+    padding:10px;
+    box-sizing: border-box;  
+}
+
+.kuvarivi::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#clear{
+    clear: both;
+}
+
+
+
+/*kun näyttö pienempi kuin 650px*/
+
+@media screen and (max-width: 650px) {
+
+/*bannerin kuva ja navigaatio*/
+#banneri{
+    min-height: 150px;
+}
+h1{
+    font-size: 8vw;
+    text-shadow: 2px 2px rgb(92, 90, 90);
+}
+li a{
+
+    font-size: 3.5vw;
+    font-weight: 600;
+    text-shadow: 2px 2px rgb(92, 90, 90);
+    letter-spacing: 1px;   
+}
+/*sisälto alkaa*/
+
+#sisalto{
+
+    width: 100%;
+    height: 85%;
+    float: left;
+}
+
+
+/*pääotsikko*/
+h2{
+    font-size: 4vw;
+}
+
+p.kuvaus{
+    font-size: 3vw;
+    font-weight: 600;
+    line-height: 1.3;
+}
+p.teksti{
+   
+    font-size: 2.7vw;
+    font-weight: 600;
+    line-height: 1.3;   
+}
+
+/*Reseptit-sivun kuvat*/
+.reseptikuvat{
+    position: relative;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ohjekuva{
+
+    width: 100%;
+    padding-left:8px;
+    padding-right: 8px;
+    padding-bottom: 2px;
+    box-sizing: border-box;
+    
+}
+/*sisällön otsikot*/
+
+h3{
+    font-size: 3.5vw;
+}
+/*listat*/
+ul.raaka_aineet{
+    font-size: 3vw;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+ol{
+   font-size: 3vw;
+   font-weight: 600;
+   line-height: 1.4;
+}
+/*alareunan lisäysteksti*/
+p.huom{
+    font-size: 3vw;
+   font-weight: 600;
+}
+/*sivun alareunan kuvat*/
+#alapalkki{
+    width: 100%;
+    height: 15%;
+    position: relative;
+    bottom: 0;
+    float: left;
+}
+.kuva{
+    padding: 3px;
+}
+
+/*Galleriasivun pikkukuvat*/
+.column1 {
+   display: none;
+    
+  }
+  .column2 {
+   display: none;
+    
+    
+  }
+}
+/*kun näyttö suurempi kuin 1300px*/
+@media screen and (min-width: 1300px){
+
+#rakenne{
+    width: 65%;
+}
+#banneri{
+    min-height: 300px;
+}
+
+
+#navigaatio{
+    height: 4vw;
+}
+li a{
+    display: block;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    text-shadow: 2px 2px rgb(92, 90, 90);
+    text-align: center;
+    padding: 0.5em 0.8em;
+    text-decoration: none;
+    font-size: 2vw;
+    font-weight: 600;
+    box-sizing: border-box;
+    }
+
+/*sisältö alkaa*/
+#sisalto{
+
+    width: 100%;
+    height:87%;
+}
+/*pääotsikko*/
+h2{
+    font-size: 2vw;
+}
+.paakuva{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+    }
+
+p.kuvaus{
+    font-size: 1.5vw;
+    padding: 3%;
+}
+p.teksti{
+    font-size: 1.5vw;
+}
+
+/*sisällön otsikot*/
+
+h3{
+    font-size: 1.8vw;
+    margin-left: 3%;
+    margin-bottom: 0;
+}
+/*listat*/
+ul.raaka_aineet{
+    font-size: 1.5vw;
+}
+
+ol{
+   font-size: 1.5vw;
+   margin-left: 2%;
+   line-height: 1.4;
+}
+p.huom{
+    text-align: center;
+    padding: 1%;
+    font-size: 1.5vw;
+    box-sizing: border-box;
+}
+/*sivun alareunan kuvien pohja*/
+#alapalkki{
+
+    width: 100%;
+    height: 87%;
+}
+}
+
+/*Gallerian kuvat yms*/
+.row > .column {
+    padding: 0 8px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Neljän kuvan rivi */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  /*Pikkukuvien rivit*/
+  .column1 {
+    float: left;
+    width: 10%;
+    padding: 8px;  
+  }
+  .column2 {
+    float: left;
+    width: 10%;
+    padding: 8px;
+    
+    
+  }
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.932);
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.416);
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    max-width: 650px;
+  }
+  
+  /* Sulje-nappi */
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Hide the slides by default */
+  .mySlides {
+    display: none;
+   }
+   /*avatut kuvat*/
+   .iso{
+       margin-bottom: -5px;
+   }
+   .isoPysty{
+       display: block;
+       width: 50%;
+       margin-left: auto;
+       margin-right: auto;
+             
+   }
+  
+  /* Eteen ja taakse -napit */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Juoksevat numerot */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Kuvan kuvaus */
+  .caption-container {
+    text-align: center;
+    background-color: rgba(149, 94, 185, 0.808);
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  img.demo {
+    
+    opacity: 0.6;
+   
+
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
