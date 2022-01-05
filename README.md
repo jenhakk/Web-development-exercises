@@ -27,6 +27,6 @@ This was an upgrade from exercise 4. The exercise was to create the previous sit
 
 ## Other files
 
-This was the first task to create web site that had to contain some elements like list, quotes, video etc.
+These were made for the first task to create web site that had to contain some elements like list, quotes, video etc.
 
 **Here you can visit the [site](https://jenhakk.github.io/jenna_hakkarainenwww21/index.html)**
