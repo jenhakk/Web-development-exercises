@@ -8,7 +8,7 @@ This was the first larger web site I did before starting actual studies in schoo
 
 It was inspired by my previous profession as a confectioner.
 
-**Here you can visit the [site](https://jenhakk.github.io/jenna_hakkarainenwww21/Imaginary_baking_site/etusivu.html)**
+**Visit here for [Have a nice bake!](https://jenhakk.github.io/jenna_hakkarainenwww21/Imaginary_baking_site/etusivu.html)**
 
 
 ## Exercise 4
