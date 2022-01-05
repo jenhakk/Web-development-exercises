@@ -4,7 +4,7 @@
 
 ## Imaginary baking site
 
-This was the first larger web site I did before starting actual studies in school. It was done for an independent course for web development and it is created from scratch using HTML, CSS and little Javascript.
+This was the first larger web site I did before starting actual studies in school. It was done for an independent course for web development and it is created from scratch using HTML, CSS and little Javascript. Site is made to responsive by using different media screen sizes.
 
 It was inspired by my previous profession as a confectioner.
 
