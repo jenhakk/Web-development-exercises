@@ -15,7 +15,7 @@ It was inspired by my previous profession as a confectioner.
 
 This was an exercise in first year of studies. It was made to practice creating simple web pages by creating layouts, adding images etc. 
 
-**Visit first version of [London calling](https://jenhakk.github.io/jenna_hakkarainenwww21/exercise4/exercise4.html)**
+**Visit first version of [London calling](https://jenhakk.github.io/Web-development-exercises/exercise4/exercise4.html)**
 
 
 ## Exercise 5
