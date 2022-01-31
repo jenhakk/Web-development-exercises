@@ -22,7 +22,7 @@ This was an exercise in first year of studies. It was made to practice creating 
 
 This was an upgrade from exercise 4. The exercise was to create the previous site with Bootstrap.
 
-**Visit improved version of [London calling](https://jenhakk.github.io/jenna_hakkarainenwww21/exercise5/exercise5.html)**
+**Visit improved version of [London calling](https://jenhakk.github.io/Web-development-exercises/exercise5/exercise5.html)**
 
 
 ## Other files
